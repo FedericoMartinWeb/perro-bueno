@@ -1,0 +1,39 @@
+.services{
+    
+    &__item{
+        border: 1px solid #d4d4d4;
+        text-align: center;
+        padding: 2.9rem 2.5rem;
+        transition: all .3s ease-out;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        
+        @mixin atSmall{
+            padding: 2.9rem 11.5rem;
+        }
+        
+        @mixin atLarge{
+            padding: 2.9rem 2.5rem;
+        }
+        
+        &:hover{
+            border: none;
+            transform: translateY(-3%);
+            box-shadow: 0px 7px 21px 3px rgba(150,150,150,1);
+        }
+    }
+    
+    &__icon{
+        font-size: 2.9rem;
+    }
+    
+    &__title{
+        font-weight: 300;
+        margin-bottom: 1.4rem;
+        letter-spacing: 4px;
+    }
+    
+    &__description{
+        line-height: 22px;
+    }
+}

@@ -9519,8 +9519,7 @@ a{
 
 .large-hero__image{
         display: block;
-        height: 85vh;
-        max-height: 85vh;    
+        height: 85vh; 
         width: 100vw;
     }
 
@@ -10123,13 +10122,15 @@ a{
     height: 50px;
     -webkit-box-shadow: 0px 6px 5px -4px rgba(0,0,0,.27);
             box-shadow: 0px 6px 5px -4px rgba(0,0,0,.27);
+    top: 42px;
 }
 
 @media only screen and (min-width: 768px){
 
 .site-header{
         position: fixed;
-        background-color: rgba(255,255,255)
+        background-color: rgba(255,255,255);
+        top: 0
 }
         
         .site-header--dark{
@@ -10172,33 +10173,39 @@ a{
         opacity: 0;
         margin-top: 50px;
         text-align: center;
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
         -webkit-transition: all .3s ease-out;
         transition: all .3s ease-out;
         position: fixed;
-        background-color: red;
+        background-color: #fff;
         left: 0;
         z-index: -10;
+        height: 100vh;
+        -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,.27);
+                box-shadow: 3px 5px 5px 0px rgba(0,0,0,.27);
     }
 
 @media only screen and (min-width: 768px){
 
 .site-header__menu-content{
+            height: auto;
             position: relative;
             opacity: 1;
             z-index: 1;
             margin-top: 0;
             -webkit-transform: scale(1);
-                    transform: scale(1)
+                    transform: scale(1);
+            -webkit-box-shadow: none;
+                    box-shadow: none
     }
     }
 
 .site-header__menu-content--is-visible{
             z-index: 1;
             opacity: 1;
-            -webkit-transform: scale(1);
-                    transform: scale(1);
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
         }
 
 .site-header__menu-icon{
@@ -10279,7 +10286,6 @@ a{
         }
 
 .primary-nav{
-    display: inline-block;
     width: 100%;
 }
 
@@ -10304,7 +10310,7 @@ a{
     }
 
 .primary-nav ul{
-        margin: 0;
+        margin-top: 0px;
         padding: 0;
     }
 
@@ -10314,21 +10320,44 @@ a{
         display: table;
     }
 
+@media only screen and (min-width: 768px){
+
+.primary-nav ul{
+            margin: 0
+    }
+    }
+
 .primary-nav li{
         list-style: none;
-        padding-right: 7px;
-        padding: 5px 8px;
+        padding: 10px 18px;
+        text-align: left;
+        border-bottom: 1px solid #0001FC;
     }
 
 @media only screen and (min-width: 768px){
 
 .primary-nav li{
+            text-align: center;
             display: inline-block;
             padding-right: 15px;
+            padding-left: 8px;
             float: left;
             padding-top: 12px;
-            display: block
+            padding-bottom: 10px;
+            display: block;
+            border-bottom: none
     }
+    }
+
+.primary-nav li:first-child{
+            border-top: 1px solid #0001FC;
+        }
+
+@media only screen and (min-width: 768px){
+
+.primary-nav li:first-child{
+                border-top: none
+        }
     }
 
 .primary-nav li:last-child{
@@ -10346,8 +10375,7 @@ a{
         color: #000;
         text-decoration: none;
         font-weight: 300;
-        font-size: .6rem;
-        background-color: rgba(0,1,252, .7);
+        font-size: .8rem;
         padding: 8px;
     }
 
@@ -10465,5 +10493,118 @@ a{
             -webkit-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
         }
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "perro";
+  src:url("");
+  src:url("../../assets/fonts/perro.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/perro.woff") format("woff"),
+    url("../../assets/fonts/perro.ttf") format("truetype"),
+    url("../../assets/fonts/perro.svg#perro") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "perro" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "perro" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagrem:before {
+  content: "\61";
+}
+
+.icon-twitter:before {
+  content: "\63";
+}
+
+.icon-facebook:before {
+  content: "\62";
+}
+
+.social{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 8;
+    border-bottom: 1px solid #FC0001;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+
+.social{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: auto;
+        border-bottom: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-box-shadow: 2px 2px 4px 2px rgba(0,0,0,.27);
+                box-shadow: 2px 2px 4px 2px rgba(0,0,0,.27)
+}
+    }
+
+.social a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 .5rem;
+        margin-top: .5rem;
+        font-size: 1.4rem;
+    }
+
+@media only screen and (min-width: 768px){
+    }
+
+.social .icon-facebook{
+        color: #3B5998;
+    }
+
+.social .icon-twitter{
+        color: #55ACEE;
+    }
+
+.social .icon-instagrem{
+        color: #000000;
+    }
+
 
 

@@ -17,8 +17,7 @@
     
     &__image{
         display: block;
-        height: 85vh;
-        max-height: 85vh;    
+        height: 85vh; 
         width: 100vw;
         
         @mixin atSmall{

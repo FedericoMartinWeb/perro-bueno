@@ -16,9 +16,10 @@
     }
 }
 
-@define-mixin atExtraLarge{
-    @media only screen and (min-width: 1200px){
-        @mixin-content;
+@define-mixin clearfix{
+    &::after{
+        content: '';
+        clear: both;
+        display: table;
     }
 }
-

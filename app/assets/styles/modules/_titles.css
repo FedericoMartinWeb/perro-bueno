@@ -1,0 +1,16 @@
+.title{
+    margin-bottom: 4rem;
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: $mainRed;
+    
+    &:after{
+        content: '';
+        display: block;
+        width: 50%;
+        height: 2px;
+        background-color: $mainBlue;
+        margin-top: .5rem;
+    }
+}

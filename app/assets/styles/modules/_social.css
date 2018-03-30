@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "perro";
-  src:url("");
+  src:url("../../assets/fonts/perro.eot");
   src:url("../../assets/fonts/perro.eot?#iefix") format("embedded-opentype"),
     url("../../assets/fonts/perro.woff") format("woff"),
     url("../../assets/fonts/perro.ttf") format("truetype"),
@@ -46,6 +46,24 @@
 }
 .icon-facebook:before {
   content: "\62";
+}
+.icon-home:before {
+  content: "\64";
+}
+.icon-graduation-cap:before {
+  content: "\65";
+}
+.icon-compass:before {
+  content: "\66";
+}
+.icon-hospital-o:before {
+  content: "\67";
+}
+.icon-sun-o:before {
+  content: "\68";
+}
+.icon-life-ring:before {
+  content: "\69";
 }
 
 .social{

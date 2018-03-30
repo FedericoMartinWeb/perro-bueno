@@ -9519,8 +9519,16 @@ a{
 
 .large-hero__image{
         display: block;
-        height: calc(100vh - 4px);
+        height: 85vh;
+        max-height: 85vh;    
         width: 100vw;
+    }
+
+@media only screen and (min-width: 576px){
+
+.large-hero__image{
+            height: calc(100vh - 4px)
+    }
     }
 
 .large-hero__text-content{

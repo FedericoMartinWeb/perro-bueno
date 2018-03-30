@@ -4,7 +4,6 @@
     
     &__img-wrapper{
         position: relative;
-        
         &:before{
             content: '';
             position: absolute;
@@ -18,8 +17,13 @@
     
     &__image{
         display: block;
-        height: calc(100vh - 4px);
+        height: 85vh;
+        max-height: 85vh;    
         width: 100vw;
+        
+        @mixin atSmall{
+            height: calc(100vh - 4px);
+        }
     }
     
     &__text-content{

@@ -40,7 +40,8 @@
         
         &--bigvete{
             color: $mainRed;
-            text-decoration: none;
+            text-decoration: none !important;
+            transition: all .3s ease-out;
             
             &:hover{
                 color: $mainBlue;

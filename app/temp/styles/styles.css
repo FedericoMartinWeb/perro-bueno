@@ -9526,8 +9526,7 @@ p{
         }
 
 .large-hero__image{
-        display: block;
-        height: 85vh; 
+        height: 410px; 
         width: 100vw;
     }
 
@@ -9637,12 +9636,14 @@ p{
 
 .page-section{
     padding: 4.2rem 0;
+    padding-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px){
 
 .page-section{
-        padding: 4.5rem 0
+        padding: 4.5rem 0;
+        padding-bottom: 4.2rem
 }
     }
 
@@ -9723,11 +9724,11 @@ p{
 .site-header__logo{
         position: absolute;
         background-color: transparent;
-        padding: 0 10px;
+        padding: 0 0px;
         top: 0;
         left: 0;
-        -webkit-transform: translateX(-32%) scale(.322);
-                transform: translateX(-32%) scale(.322);
+        -webkit-transform: translateX(-34%) scale(.322);
+                transform: translateX(-34%) scale(.322);
         -webkit-transform-origin: top;
                 transform-origin: top;
         -webkit-transition:  -webkit-transform .3s ease-out;
@@ -9739,10 +9740,12 @@ p{
 @media only screen and (min-width: 768px){
 
 .site-header__logo{
+            -webkit-transform-origin: top left;
+                    transform-origin: top left;
             left: auto;
             -webkit-transform: translateX(0);
                     transform: translateX(0);
-            width: 170px
+            width: 152px
     }
             
             .site-header--dark .site-header__logo{
@@ -10176,7 +10179,9 @@ p{
 
 .services__title--bigvete{
             color: #FC0001;
-            text-decoration: none;
+            text-decoration: none !important;
+            -webkit-transition: all .3s ease-out;
+            transition: all .3s ease-out;
         }
 
 .services__title--bigvete:hover{
@@ -10202,6 +10207,42 @@ p{
         height: 2px;
         background-color: #0001FC;
         margin-top: .5rem;
+    }
+
+.title--smaller{
+        font-size: 1.6rem;
+    }
+
+.know-us{
+    position: relative;
+    overflow: hidden;
+}
+
+.know-us img{
+        position: absolute;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-filter: grayscale(1);
+                filter: grayscale(1);
+    }
+
+.know-us img:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: red;
+        }
+
+.know-us__video-wrapper{
+        display: block;
+        width: 100%;
+        height: 315px;
+        text-align: center;
     }
 
 

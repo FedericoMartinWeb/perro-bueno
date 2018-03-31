@@ -16,8 +16,7 @@
     }
     
     &__image{
-        display: block;
-        height: 85vh; 
+        height: 410px; 
         width: 100vw;
         
         @mixin atSmall{

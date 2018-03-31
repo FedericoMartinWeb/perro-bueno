@@ -13,4 +13,8 @@
         background-color: $mainBlue;
         margin-top: .5rem;
     }
+    
+    &--smaller{
+        font-size: 1.6rem;
+    }
 }

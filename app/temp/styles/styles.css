@@ -9635,15 +9635,14 @@ p{
     }
 
 .page-section{
-    padding: 4.2rem 0;
-    padding-bottom: 2rem;
+    padding: 2.2rem 0;
 }
 
 @media only screen and (min-width: 768px){
 
 .page-section{
-        padding: 4.5rem 0;
-        padding-bottom: 4.2rem
+        padding: 3.5rem 0;
+        padding-bottom: 3.2rem
 }
     }
 
@@ -10189,11 +10188,11 @@ p{
             }
 
 .services__parrafo{
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
 .title{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     display: inline-block;
     font-size: 2.2rem;
     font-weight: 300;

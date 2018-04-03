@@ -9528,6 +9528,7 @@ p{
 .large-hero__image{
         height: 410px; 
         width: 100vw;
+        min-width: 560px;
     }
 
 @media only screen and (min-width: 576px){
@@ -10217,7 +10218,7 @@ p{
     overflow: hidden;
 }
 
-.know-us .nop{
+.know-us__filter{
         position: absolute;
         top: 0;
         left: 0;
@@ -10243,6 +10244,7 @@ p{
 .know-us img{
         min-height: 400px;
         width: 100vw;
+        min-width: 560px;
     }
 
 .know-us__video-wrapper{

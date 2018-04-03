@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     
-    .nop{
+    &__filter{
         position: absolute;
         top: 0;
         left: 0;
@@ -28,6 +28,7 @@
     img{
         min-height: 400px;
         width: 100vw;
+        min-width: 560px;
     }
     
     &__video-wrapper{

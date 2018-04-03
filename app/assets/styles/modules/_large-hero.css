@@ -18,6 +18,7 @@
     &__image{
         height: 410px; 
         width: 100vw;
+        min-width: 560px;
         
         @mixin atSmall{
             height: calc(100vh - 4px);

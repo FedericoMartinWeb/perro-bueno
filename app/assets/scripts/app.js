@@ -4,6 +4,6 @@ import StickyHeader from './modules/StickyHeader';
 import $ from 'jquery';
 
 var mobile = new MobileMenu();
-new RevealOnScroll($('.gallery-item'), '85%');
+new RevealOnScroll($('.gallery-reveal'), '85%');
 new RevealOnScroll($('.testimonial'), '85%');
 var sticky = new StickyHeader();

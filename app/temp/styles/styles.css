@@ -9979,8 +9979,8 @@ p{
     opacity: 0;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
+    -webkit-transform: scale(.90);
+            transform: scale(.90);
 }
 
 .reveal-item--is-visible{
@@ -10461,6 +10461,35 @@ html.lb-disable-scrolling {
     display: none !important;
 }
 
+.gallery__item{
+        margin: 1rem 0;
+    }
+
+.gallery__item img{
+            width: 100%;
+            height: 380px;
+            -webkit-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+
+@media only screen and (min-width: 576px){
+
+.gallery__item img{
+                height: 450px
+        }
+    }
+
+@media only screen and (min-width: 768px){
+
+.gallery__item img{
+                height: 350px
+        }
+    }
+
+.gallery__item img:hover{
+                -webkit-filter: grayscale(1);
+                        filter: grayscale(1);
+            }
 
 
 

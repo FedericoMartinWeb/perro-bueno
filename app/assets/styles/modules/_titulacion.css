@@ -1,0 +1,42 @@
+.titulacion{
+    
+    &__item{
+        color: #fff;
+        background-color: $mainBlue;
+        padding: 1.5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 216px;
+        
+        &__img{
+            width: 130px;
+            margin-bottom: .8rem;
+        }
+        
+        &__dona{
+            font-size: .8rem;
+            height: auto;
+        }
+        
+        @mixin atMedium{
+            padding: 1.5rem 2.1rem;
+        }
+        
+        p{
+            margin: 0;
+            padding: 0;
+        }
+        
+        &__title{
+            font-weight: 300;
+            font-size: 1.5rem;
+        }
+        
+        &--red{
+            background-color: $mainRed;
+        }
+    }
+}

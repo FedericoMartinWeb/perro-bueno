@@ -10550,8 +10550,74 @@ html.lb-disable-scrolling {
     padding: 1rem 0;
     color: #fff;
     margin: 0;
-    text-align: center;
 }
+
+.footer__date{
+        width: 100vw;
+        display: inline-block;
+        text-align: center;
+        font-size: .8rem;
+    }
+
+.footer__hash{
+        text-align: center;
+        padding: 0 25vw;
+        padding-bottom: 1.2rem;
+    }
+
+@media only screen and (min-width: 768px){
+
+.footer__hash{
+            padding: 0
+    }
+    }
+
+.footer__hash a{
+            text-decoration: none;
+            color: #fff !important;
+        }
+
+.footer__secondary-nav{
+        display: none;
+    }
+
+.footer__secondary-nav__wrapper{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+        }
+
+.footer__secondary-nav li{
+            list-style: none;
+            padding: 0 .5rem;
+            margin: 0;
+            font-size: .7rem;
+        }
+
+@media only screen and (min-width: 768px){
+
+.footer__secondary-nav{
+            display: block
+    }
+    }
+
+.footer__phone{
+        text-align: center;
+        padding-bottom: 1.2rem;
+    }
+
+@media only screen and (min-width: 768px){
+
+.footer__phone{
+            padding: 0
+    }
+    }
 
 
 

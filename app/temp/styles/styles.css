@@ -10559,6 +10559,14 @@ html.lb-disable-scrolling {
         font-size: .8rem;
     }
 
+@media only screen and (min-width: 768px){
+
+.footer__date{
+            margin-top: 1.2rem;
+            margin-bottom: .3rem
+    }
+    }
+
 .footer__hash{
         text-align: center;
         padding: 0 25vw;
@@ -10568,7 +10576,18 @@ html.lb-disable-scrolling {
 @media only screen and (min-width: 768px){
 
 .footer__hash{
-            padding: 0
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+            padding: 0;
+            padding-top: .2rem;
+            font-size: .8rem
     }
     }
 
@@ -10576,6 +10595,17 @@ html.lb-disable-scrolling {
             text-decoration: none;
             color: #fff !important;
         }
+
+@media only screen and (min-width: 768px){
+
+.footer__hash a{
+                padding-right: .5rem
+        }
+                
+                .footer__hash a:last-child{
+                    padding-right: 0;
+                }
+    }
 
 .footer__secondary-nav{
         display: none;
@@ -10597,25 +10627,37 @@ html.lb-disable-scrolling {
             list-style: none;
             padding: 0 .5rem;
             margin: 0;
-            font-size: .7rem;
+            font-size: .8rem;
         }
+
+.footer__secondary-nav li:last-child{
+                padding-right: 0;
+            }
+
+.footer__secondary-nav li a{
+                color: #fff;
+            }
 
 @media only screen and (min-width: 768px){
 
 .footer__secondary-nav{
-            display: block
+            display: block;
+            padding-top: calc(.6rem - 6px)
     }
     }
 
 .footer__phone{
         text-align: center;
         padding-bottom: 1.2rem;
+        font-size: 1rem;
     }
 
 @media only screen and (min-width: 768px){
 
 .footer__phone{
-            padding: 0
+            padding: 0;
+            padding-top: .2rem;
+            font-size: .8rem
     }
     }
 

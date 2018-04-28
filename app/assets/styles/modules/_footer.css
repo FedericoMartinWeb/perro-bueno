@@ -21,6 +21,11 @@
         padding: 0 25vw;
         padding-bottom: 1.2rem;
         
+        @media only screen and (min-width: 500px) and (max-width: 578px){
+            padding: 0 30vw;
+            padding-bottom: 1.2rem;
+        }
+        
         @mixin atMedium{
             display: flex;
             justify-content: center;
@@ -32,13 +37,18 @@
         
         a{
             text-decoration: none;
-            color: #fff !important;
+            color: #fff;
+            transition: color .3s ease-out;
+            
+            &:hover{
+                color: $mainBlue;
+            }
             
             @mixin atMedium{
-                padding-right: .5rem;
+                margin-right: .8rem;
                 
                 &:last-child{
-                    padding-right: 0;
+                    margin-right: 0;
                 }
             }
         }
@@ -46,6 +56,10 @@
     
     &__secondary-nav{
         display: none;
+        
+        &--active{
+            color: $mainRed !important;
+        }
         
         &__wrapper{
             display: flex;
@@ -65,12 +79,19 @@
             
             a{
                 color: #fff;
+                text-decoration: none;
+                transition: color .2s ease-out;
+                font-weight: 300;
+                
+                &:hover{
+                    color: $mainRed;    
+                }
             }
         }
         
         @mixin atMedium{
             display: block;
-            padding-top: calc(.6rem - 6px);
+            padding-top: calc(.6rem - 7px);
         }
     }
     
@@ -79,10 +100,22 @@
         padding-bottom: 1.2rem;
         font-size: 1rem;
         
+        span::before{
+            font-size: 1rem;
+            margin-right: .2rem;
+            position: relative;
+            top: 3px;
+        }
+        
         @mixin atMedium{
             padding: 0;
             padding-top: .2rem;
             font-size: .8rem;
+            
+            span::before{
+                font-size: .8rem;
+                top: 2px;
+            }
         }
     }
 }

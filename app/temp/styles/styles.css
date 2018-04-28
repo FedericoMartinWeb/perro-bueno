@@ -9526,6 +9526,11 @@ p{
             background-color: rgba(0, 0, 0, 0.72);
         }
 
+.large-hero__img-wrapper--internal{
+            overflow-y: hidden;
+            height: 70vh;
+        }
+
 .large-hero__image{
         height: 410px; 
         width: 100vw;
@@ -9537,6 +9542,13 @@ p{
 .large-hero__image{
             height: calc(100vh - 4px)
     }
+    }
+
+@media only screen and (min-width: 576px){
+
+.large-hero__image--internal{
+                max-height: 1000px
+        }
     }
 
 .large-hero__text-content{
@@ -9963,7 +9975,13 @@ p{
         font-weight: 300;
         font-size: .8rem;
         padding: 8px;
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out;
     }
+
+.primary-nav a:hover{
+            color: #FC0001;
+        }
 
 @media only screen and (min-width: 768px){
 
@@ -9975,6 +9993,10 @@ p{
             .primary-nav a.is-current-link{
                 color: #FC0001;
             }
+    }
+
+.primary-nav__active{
+        color: #FC0001 !important;
     }
 
 .reveal-item{
@@ -9995,7 +10017,7 @@ p{
 
 @font-face {
   font-family: "perro";
-  src:url("../../assets/fonts/perro.eot");
+  src:url(".../../assets/fonts/perro.eot");
   src:url("../../assets/fonts/perro.eot?#iefix") format("embedded-opentype"),
     url("../../assets/fonts/perro.woff") format("woff"),
     url("../../assets/fonts/perro.ttf") format("truetype"),
@@ -10065,6 +10087,10 @@ p{
 
 .icon-life-ring:before {
   content: "\69";
+}
+
+.icon-phone:before {
+  content: "\6a";
 }
 
 .social{
@@ -10573,6 +10599,14 @@ html.lb-disable-scrolling {
         padding-bottom: 1.2rem;
     }
 
+@media only screen and (min-width: 500px) and (max-width: 578px){
+
+.footer__hash{
+            padding: 0 30vw;
+            padding-bottom: 1.2rem
+    }
+        }
+
 @media only screen and (min-width: 768px){
 
 .footer__hash{
@@ -10593,23 +10627,33 @@ html.lb-disable-scrolling {
 
 .footer__hash a{
             text-decoration: none;
-            color: #fff !important;
+            color: #fff;
+            -webkit-transition: color .3s ease-out;
+            transition: color .3s ease-out;
         }
+
+.footer__hash a:hover{
+                color: #0001FC;
+            }
 
 @media only screen and (min-width: 768px){
 
 .footer__hash a{
-                padding-right: .5rem
+                margin-right: .8rem
         }
                 
                 .footer__hash a:last-child{
-                    padding-right: 0;
+                    margin-right: 0;
                 }
     }
 
 .footer__secondary-nav{
         display: none;
     }
+
+.footer__secondary-nav--active{
+            color: #FC0001 !important;
+        }
 
 .footer__secondary-nav__wrapper{
             display: -webkit-box;
@@ -10636,13 +10680,21 @@ html.lb-disable-scrolling {
 
 .footer__secondary-nav li a{
                 color: #fff;
+                text-decoration: none;
+                -webkit-transition: color .2s ease-out;
+                transition: color .2s ease-out;
+                font-weight: 300;
             }
+
+.footer__secondary-nav li a:hover{
+                    color: #FC0001;    
+                }
 
 @media only screen and (min-width: 768px){
 
 .footer__secondary-nav{
             display: block;
-            padding-top: calc(.6rem - 6px)
+            padding-top: calc(.6rem - 7px)
     }
     }
 
@@ -10652,6 +10704,13 @@ html.lb-disable-scrolling {
         font-size: 1rem;
     }
 
+.footer__phone span::before{
+            font-size: 1rem;
+            margin-right: .2rem;
+            position: relative;
+            top: 3px;
+        }
+
 @media only screen and (min-width: 768px){
 
 .footer__phone{
@@ -10659,6 +10718,11 @@ html.lb-disable-scrolling {
             padding-top: .2rem;
             font-size: .8rem
     }
+            
+            .footer__phone span::before{
+                font-size: .8rem;
+                top: 2px;
+            }
     }
 
 

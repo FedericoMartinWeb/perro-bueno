@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>PrroBueno | Guarderia de dia y adiestramiento canino</title>
+  <title>PerroBueno | Guarderia de dia y adiestramiento canino</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
   
@@ -50,8 +50,8 @@
             <div class="site-header__menu-content">
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
-                        <li><a href="#our-beginning" id="our-begin-link" class="primary-nav__active">Home</a></li>
-                        <li><a href="#our-beginning" id="our-begin-link">Guarderia de día</a></li>
+                        <li><a href="index.php" id="our-begin-link" class="primary-nav__active">Home</a></li>
+                        <li><a href="guarderia.php" id="our-begin-link">Guarderia de día</a></li>
                         <li><a href="#features" id="features-link">Adiestramiento</a></li>
                         <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
                     </ul>
@@ -178,6 +178,7 @@
     </section>
     <!-- End gallery -->
     
+    <!-- Start titulacion -->
     <section class="titulacion">
         <div class="container-fluid">
             <div class="row">
@@ -194,47 +195,9 @@
             </div>
         </div>
     </section>
-  <!--<div id="testimonials" class="page-section page-section__testimonials page-section--no-b-padding lazyload" data-matching-link="#testimonials-link">
-    <div class="wrapper wrapper--no-padding">
-        <h2 class="section-title section-title--blue"><span class="section-title__icon icon--comment"></span>Real <strong>Testimonials</strong></h2>
-        
-        <div class="row row__gutters generic-content-container row--t-padding row--gutters-small row--equal-height">
-            <div class="row__large-4">
-                <div class="testimonial">
-                    <div class="testimonial__img">
-                        <img class="lazyload" data-src="assets/images/testimonial-jane.jpg">
-                    </div>
-                    <h3 class="testimonial__title">Jane Doe</h3>
-                    <h4 class="testimonial__subtitle">9 Time Escaper</h4>
-                    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
-                </div>
-            </div>
-            
-            <div class="row__large-4">
-                <div class="testimonial">
-                    <div class="testimonial__img">
-                        <img class="lazyload" data-src="assets/images/testimonial-john.jpg">
-                    </div>
-                    <h3 class="testimonial__title">John Smith</h3>
-                    <h4 class="testimonial__subtitle">4 Time Escaper</h4>
-                    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
-                </div>
-            </div>
-            
-            <div class="row__large-4">
-                <div class="testimonial testimonial--last">
-                    <div class="testimonial__img">
-                        <img class="lazyload" data-src="assets/images/testimonial-cat.jpg">
-                    </div>
-                    <h3 class="testimonial__title">Cat McKitty</h3>
-                    <h4 class="testimonial__subtitle">6 Time Escaper</h4>
-                    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>-->
-
+    <!-- End titulacion -->
+    
+    <!-- Start footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -244,11 +207,11 @@
                     <a href="#">#perrobueno.es</a>
                 </div>
                 <div class="footer__phone col-12 col-md-4">
-                    <span class="icon-facebook">627 74 19 47</span>
+                    <span class="icon-phone">627 74 19 47</span>
                 </div>
                 <div class="footer__secondary-nav col-md-4">
                     <div class="footer__secondary-nav__wrapper">
-                            <li><a href="#our-beginning" id="our-begin-link">Home</a></li>
+                            <li><a href="#our-beginning" id="our-begin-link" class="footer__secondary-nav--active">Home</a></li>
                             <li><a href="#our-beginning" id="our-begin-link">Guarderias</a></li>
                             <li><a href="#features" id="features-link">Adiestramiento</a></li>
                             <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
@@ -257,10 +220,11 @@
             </div>
         </div>
             <div class="footer__date">
-                <span class="section-footer__text">Copyright &copy; 2018 All rights reserved.</span>
+                <span class="section-footer__text">Copyright &copy; <?php echo date('Y'); ?> All rights reserved.</span>
             </div>
     </footer>
-  
+    <!-- End footer -->
+    
   <!-- build:js /assets/scripts/App.js -->
   <script src="temp/scripts/App.js"></script>
   <!-- endbuild -->

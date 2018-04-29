@@ -23,3 +23,20 @@ a{
 p{
     font-size: 1rem;
 }
+.red{
+    color: $mainRed;
+}
+
+.blue{
+    color: $mainBlue;
+}
+
+.hide-medium{
+    @mixin atMedium{
+        display: none;        
+    }
+}
+
+.pt-1{
+    padding-top: .5rem !important;
+}

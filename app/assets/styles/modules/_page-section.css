@@ -6,6 +6,14 @@
         padding-bottom: 3.2rem;
     }
     
+    &--no-padding-top{
+        padding-top: 0;
+    }
+    
+    &--no-padding-bottom{
+        padding-bottom: 0;
+    }
+    
     &--all-h{
         height: 100vh;
     }

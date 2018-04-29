@@ -50,10 +50,10 @@
             <div class="site-header__menu-content">
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
-                        <li><a href="index.php" id="our-begin-link" class="primary-nav__active">Home</a></li>
-                        <li><a href="guarderia.php" id="our-begin-link">Guarderia de día</a></li>
-                        <li><a href="#features" id="features-link">Adiestramiento</a></li>
-                        <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
+                        <li><a href="index.php" class="primary-nav__active">Home</a></li>
+                        <li><a href="guarderia.php">Guarderia de día</a></li>
+                        <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -211,10 +211,10 @@
                 </div>
                 <div class="footer__secondary-nav col-md-4">
                     <div class="footer__secondary-nav__wrapper">
-                            <li><a href="#our-beginning" id="our-begin-link" class="footer__secondary-nav--active">Home</a></li>
-                            <li><a href="#our-beginning" id="our-begin-link">Guarderias</a></li>
-                            <li><a href="#features" id="features-link">Adiestramiento</a></li>
-                            <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
+                        <li><a href="index.php" class="primary-nav__active">Home</a></li>
+                        <li><a href="guarderia.php">Guarderia</a></li>
+                        <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                     </div>
                 </div>
             </div>

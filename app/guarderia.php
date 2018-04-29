@@ -50,10 +50,10 @@
             <div class="site-header__menu-content">
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
-                        <li><a href="index.php" id="our-begin-link" >Home</a></li>
-                        <li><a href="guarderia.php" id="our-begin-link" class="primary-nav__active">Guarderia de día</a></li>
-                        <li><a href="#features" id="features-link">Adiestramiento</a></li>
-                        <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="guarderia.php" class="primary-nav__active">Guarderia de día</a></li>
+                        <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -69,7 +69,7 @@
         <img srcset="assets/images/hero--smaller.jpg 640w" alt="main" class="large-hero__image">
     </picture> -->
         <div class="large-hero__img-wrapper large-hero__img-wrapper--internal">
-            <img src="assets/images/perro_prueba3.jpg" alt="" class="large-hero__image large-hero__image--internal">
+            <img src="assets/images/perro_15.jpg" alt="" class="large-hero__image large-hero__image--internal">
         </div>
         <div class="large-hero__text-content">
             <div class="container">
@@ -77,28 +77,35 @@
             </div>
         </div>
     </div>
-    <!-- End Header -->
+    <!-- End Hero -->
     
-    <!-- Start Services -->
-    <main class="services page-section" id="services">
+    <!-- Start guarderia -->
+    <main class="guarderia page-section page-section--no-padding-bottom" id="services">
         <div class="container">
-            <h2 class="title">Servicios</h2>
-            <p>PerroBueno fue creado por amantes de los animales, para darles un servicio personalizado. En nuestras instalaciones no verás a tu perro encerrado, es un lugar especial para que disfruten mientras tu realizas tus obligaciones, trabajo, recados o te vas a las vacaciones deseadas y no puedes llevarle contigo.</p>
-            <p>La idea principal es contar con un lugar apropiado para poder tener a los perros como en casa, espacio suficiente e instalaciones preparadas para todo tipo de perros. Solo contamos con un grupo muy limitado de perros en el Centro de día, esto hace que sea 100×100 personalizado.</p>
+            <p>Nuestro servicio de Guardería de día es una alternativa al paseador convencional, 
+            recogemos cada mañana a tu perro en la puerta de tu casa y lo llevamos a pasar el dia a nuestra casa de campo, a una finca de encanto donde hará ejercicio y pasara el día rodeado de colegas.
+            Es una opción al paseador, ya que la tarifa de guardería de día equivale a un día completo de paseo, donde tu mejor amigo puede pasear sin correa, correr y pasarlo bien sin tener que estar pensando en los temores de la gran ciudad (coches – 
+            aglomeraciones y parques&nbsp;delimitados).</p>
+            <p>Tienes un galgo que no puede correr suelto o un perro denominado PPP al cual no puedes dejar jugar sin correa ni bozal??? <br><span class="red font-italic">Somos tu solución!!!</span></p>
+            <p>Tenemos tarifa plana de lunes a viernes, pero damos servicio según disponibilidad en días sueltos.
+            Nos puedes consultar tus necesidades y nos intentamos acoplar a ti.
+            La idea es que tu perro no pase el día solo, de esta manera se evitan destrozos en casa y la ansiedad por separación, y algo 
+            importante será un perro sociable con todos los&nbsp;perros.</p>
+            <p class="blue text-center font-italic font-weight-bold text-uppercase pt-1">No hacemos distinción de razas, <br class="hide-medium" />solo nos importa que tu perro sea&nbsp;feliz!</p>
         </div>      
     </main>
-    <!-- End Services -->
+    <!-- End guarderia -->
     
     <!-- Start gallery -->
-    <section class="gallery page-section" id="gallery">
+    <section class="gallery page-section page-section--no-padding-top" id="gallery">
         <div class="container">
             <div class="row">
                
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_1.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_1.jpg" alt=""></a>
+                    <a href="assets/images/perro_1.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_4.jpg" alt=""></a>
                 </div>
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_2.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_2.jpg" alt=""></a>
+                    <a href="assets/images/perro_2.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_6.jpg" alt=""></a>
                 </div>
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
                     <a href="assets/images/perro_3.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_3.jpg" alt=""></a>
@@ -121,10 +128,10 @@
                 </div>
                 <div class="footer__secondary-nav col-md-4">
                     <div class="footer__secondary-nav__wrapper">
-                            <li><a href="#our-beginning" id="our-begin-link">Home</a></li>
-                            <li><a href="#our-beginning" id="our-begin-link" class="footer__secondary-nav--active">Guarderia</a></li>
-                            <li><a href="#features" id="features-link">Adiestramiento</a></li>
-                            <li><a href="#testimonials" id="testimonials-link">Contacto</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="guarderia.php" class="primary-nav__active">Guarderia</a></li>
+                        <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                     </div>
                 </div>
             </div>

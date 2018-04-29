@@ -10067,7 +10067,7 @@ p{
 
 @font-face {
   font-family: "perro";
-  src:url(".../../assets/fonts/perro.eot");
+  src:url("../../assets/fonts/perro.eot");
   src:url("../../assets/fonts/perro.eot?#iefix") format("embedded-opentype"),
     url("../../assets/fonts/perro.woff") format("woff"),
     url("../../assets/fonts/perro.ttf") format("truetype"),
@@ -10141,6 +10141,10 @@ p{
 
 .icon-phone:before {
   content: "\6a";
+}
+
+.icon-checkmark:before {
+  content: "\6b";
 }
 
 .social{
@@ -10542,14 +10546,13 @@ html.lb-disable-scrolling {
 
 .gallery__item{
         margin: 1rem 0;
-        overflow: hidden;
     }
 
 .gallery__item img{
             width: 100%;
             height: 380px;
-            -webkit-transition: all .3s ease-out;
-            transition: all .3s ease-out;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out;
         }
 
 @media only screen and (min-width: 576px){
@@ -10567,8 +10570,8 @@ html.lb-disable-scrolling {
     }
 
 .gallery__item img:hover{
-                -webkit-transform: translateY(4px);
-                        transform: translateY(4px);
+                -webkit-transform: translateY(-4px);
+                        transform: translateY(-4px);
             }
 
 .titulacion__item{
@@ -10774,6 +10777,95 @@ html.lb-disable-scrolling {
                 font-size: .8rem;
                 top: 2px;
             }
+    }
+
+.adiestramiento__item{
+        border: 1px solid #0001FC;
+        text-align: center;
+        margin-bottom: 2rem;
+        height: 500px;
+    }
+
+@media only screen and (min-width: 768px){
+
+.adiestramiento__item{
+            height: 460px
+    }
+    }
+
+.adiestramiento__img--wrapper{
+        overflow: hidden;
+        height: 300px;
+    }
+
+@media only screen and (min-width: 768px){
+
+.adiestramiento__img--wrapper{
+            height: auto
+    }
+    }
+
+.adiestramiento__img{
+        width: 100%;
+        height: 330px;
+        position: relative;
+    }
+
+@media only screen and (min-width: 768px){
+
+.adiestramiento__img{
+            height: 250px
+    }
+    }
+
+.adiestramiento__icon{
+        font-size: 2.9rem;
+        color: #FC0001;
+    }
+
+.adiestramiento__title{
+        font-weight: 300;
+        margin-bottom: 1rem;
+        text-align: left;
+        color: #FC0001;
+    }
+
+.adiestramiento__title--bigvete{
+            color: #FC0001;
+            text-decoration: none !important;
+            -webkit-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+
+.adiestramiento__title--bigvete:hover{
+                color: #0001FC;
+            }
+
+.adiestramiento__parrafo{
+        text-align: left;
+    }
+
+.adiestramiento__copy-wrapper{
+        padding: 1rem;
+    }
+
+.adiestramiento__legal{
+        font-style: italic;
+        font-size: .8rem;
+    }
+
+.ad-avanzado{
+    background-color: #f7f7f7;
+}
+
+.ad-avanzado ul{
+        list-style: none;
+    }
+
+.ad-avanzado li::before{
+        color: red;
+        position: relative;
+        right: 5px;
     }
 
 

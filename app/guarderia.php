@@ -80,7 +80,7 @@
     <!-- End Hero -->
     
     <!-- Start guarderia -->
-    <main class="guarderia page-section page-section--no-padding-bottom" id="services">
+    <section class="guarderia page-section page-section--no-padding-bottom">
         <div class="container">
             <p>Nuestro servicio de Guardería de día es una alternativa al paseador convencional, 
             recogemos cada mañana a tu perro en la puerta de tu casa y lo llevamos a pasar el dia a nuestra casa de campo, a una finca de encanto donde hará ejercicio y pasara el día rodeado de colegas.
@@ -93,7 +93,7 @@
             importante será un perro sociable con todos los&nbsp;perros.</p>
             <p class="blue text-center font-italic font-weight-bold text-uppercase pt-1">No hacemos distinción de razas, <br class="hide-medium" />solo nos importa que tu perro sea&nbsp;feliz!</p>
         </div>      
-    </main>
+    </section>
     <!-- End guarderia -->
     
     <!-- Start gallery -->

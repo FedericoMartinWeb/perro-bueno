@@ -16,13 +16,32 @@
             margin-bottom: .8rem;
         }
         
+        &__parrafo{
+            a{
+                color: $mainRed;
+                text-decoration: none;
+                transition: all .2s ease-out;
+                
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+        
+        &__parrafo--azul{
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        
         &__dona{
             font-size: .8rem;
             height: auto;
         }
         
         @mixin atMedium{
-            padding: 1.5rem 2.1rem;
+            padding: 1.5rem 2.6rem;
         }
         
         p{

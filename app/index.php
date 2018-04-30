@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>PerroBueno | Guarderia de dia y adiestramiento canino</title>
-  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
-  <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+  <meta name="keywords" content="Guarderia de día, Adiestramiento profesional, Estancias diarias diurnas">
+  <meta name="description" content="PerroBueno fue creado por amantes de los animales, para darles un servicio personalizado. En nuestras instalaciones no verás a tu perro encerrado, es un lugar especial para que disfruten mientras tu realizas tus obligaciones, trabajo, recados o te vas a las vacaciones deseadas y no puedes llevarle contigo.">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- Favicon -->
   
   <!-- Google Font -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
@@ -29,9 +34,9 @@
 <body>
     <!-- Social Nav Start -->
         <div class="social">
-            <a href="#" class="icon-facebook"></a>
-            <a href="#" class="icon-twitter"></a>
-            <a href="#" class="icon-instagrem"></a>
+            <a href="https://www.facebook.com/perrobueno.es/" class="icon-facebook" target="_blank"></a>
+            <a href="https://www.twitter.com/perrobueno_es" class="icon-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/perrobueno.es/" class="icon-instagrem" target="_blank"></a>
         </div>
     <!-- Social Nav End -->
     
@@ -111,7 +116,7 @@
                 <div class="services__item--content col-md-6 col-lg-4">
                     <article class="services__item">
                         <span class="icon-hospital-o services__icon"></span>
-                        <h3 class="services__title">Veterinario a domicilio <a href="#" class="services__title--bigvete">bigvete.es</a></h3>
+                        <h3 class="services__title">Veterinario a domicilio <a href="http://www.bigvete.es/" class="services__title--bigvete" target="_blank">bigvete.es</a></h3>
                     </article>
                 </div>
                 
@@ -156,10 +161,10 @@
             <div class="row">
                
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_1.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_1.jpg" alt=""></a>
+                    <a href="assets/images/perro_7.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_7.jpg" alt=""></a>
                 </div>
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_2.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_2.jpg" alt=""></a>
+                    <a href="assets/images/perro_8.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_8.jpg" alt=""></a>
                 </div>
                 <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
                     <a href="assets/images/perro_3.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_3.jpg" alt=""></a>
@@ -184,13 +189,13 @@
             <div class="row">
                 <div class="col-md-6 titulacion__item">
                     <h3 class="titulacion__item__title">Servicios brindados por profesionales con titulación oficial de la Federación Cinológica de&nbsp;España</h3>
-                    <p>Veterinario de confianza a precios razonables donde puedes hacer tus consultas: www.bigvete.es</p>
+                    <p class="titulacion__item__parrafo">Veterinario de confianza a precios razonables donde puedes hacer tus consultas: <a href="http://www.bigvete.es/" target="_blank">www.bigvete.es</a></p>
                 </div>
                 
                 <div class="col-md-6 titulacion__item titulacion__item--red">
-                    <img class="titulacion__item__img" src="assets/images/teaming.png" alt="">
+                    <a href="https://www.teaming.net/esterilizacionaperrosppprescatados" target="_blank"><img class="titulacion__item__img" src="assets/images/teaming.png" alt=""></a>
                     <p class="titulacion__item__dona">Dona 1€ al mes a mi Grupo Teaming</p>
-                    <p>Esterilizacion a perros PPP</p>
+                    <p class="titulacion__item__parrafo--azul"><a href="https://www.teaming.net/esterilizacionaperrosppprescatados" target="_blank">Esterilizacion a perros PPP</a></p>
                 </div>
             </div>
         </div>

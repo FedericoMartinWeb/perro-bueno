@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>PerroBueno | Guarderia de dia y adiestramiento canino</title>
-  <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
-  <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
+  <meta name="keywords" content="Guarderia de día, Adiestramiento profesional, Estancias diarias diurnas">
+  <meta name="description" content="PerroBueno fue creado por amantes de los animales, para darles un servicio personalizado. En nuestras instalaciones no verás a tu perro encerrado, es un lugar especial para que disfruten mientras tu realizas tus obligaciones, trabajo, recados o te vas a las vacaciones deseadas y no puedes llevarle contigo.">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- Favicon -->
   
   <!-- Google Font -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
@@ -29,9 +34,9 @@
 <body>
     <!-- Social Nav Start -->
         <div class="social">
-            <a href="#" class="icon-facebook"></a>
-            <a href="#" class="icon-twitter"></a>
-            <a href="#" class="icon-instagrem"></a>
+            <a href="https://www.facebook.com/perrobueno.es/" class="icon-facebook" target="_blank"></a>
+            <a href="https://www.twitter.com/perrobueno_es" class="icon-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/perrobueno.es/" class="icon-instagrem" target="_blank"></a>
         </div>
     <!-- Social Nav End -->
     
@@ -40,7 +45,7 @@
         <div class="container">
             <div class="site-header__logo">
                 <!--<div class="icon--clear-view-escapes site-header__logo__graphic">Clear View Escapes</div>-->
-                <img src="assets/images/pb_logo.png" alt="" class="site-header__image">
+                <a href="index.php"><img src="assets/images/pb_logo.png" alt="" class="site-header__image"></a>
             </div>
 
             <div class="site-header__menu-icon">

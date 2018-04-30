@@ -47,7 +47,7 @@
             }
             
             @mixin atLarge{
-                min-height: 1150px;
+                min-height: 1300px;
             }
         }
     }

@@ -18,7 +18,7 @@
         
         &--internal{
             overflow-y: hidden;
-            height: 400px;
+            height: 410px;
             
             @mixin atSmall{
                 height: 430px;

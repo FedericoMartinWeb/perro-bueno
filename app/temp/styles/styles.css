@@ -9584,7 +9584,13 @@ p{
 
 .large-hero__image--internal{
                 min-height: 950px
-            
+        }
+    }
+
+@media only screen and (min-width: 992px){
+
+.large-hero__image--internal{
+                min-height: 1150px
         }
     }
 
@@ -10546,6 +10552,7 @@ html.lb-disable-scrolling {
 
 .gallery__item{
         margin: 1rem 0;
+        overflow: hidden;
     }
 
 .gallery__item img{
@@ -10570,8 +10577,8 @@ html.lb-disable-scrolling {
     }
 
 .gallery__item img:hover{
-                -webkit-transform: translateY(-4px);
-                        transform: translateY(-4px);
+                -webkit-transform: translateY(4px);
+                        transform: translateY(4px);
             }
 
 .titulacion__item{
@@ -10705,10 +10712,6 @@ html.lb-disable-scrolling {
         display: none;
     }
 
-.footer__secondary-nav--active{
-            color: #FC0001 !important;
-        }
-
 .footer__secondary-nav__wrapper{
             display: -webkit-box;
             display: -ms-flexbox;
@@ -10735,8 +10738,8 @@ html.lb-disable-scrolling {
 .footer__secondary-nav li a{
                 color: #fff;
                 text-decoration: none;
-                -webkit-transition: color .2s ease-out;
-                transition: color .2s ease-out;
+                -webkit-transition: all .2s ease-out;
+                transition: all .2s ease-out;
                 font-weight: 300;
             }
 
@@ -10866,6 +10869,71 @@ html.lb-disable-scrolling {
         color: red;
         position: relative;
         right: 5px;
+    }
+
+.contacto__form__button{
+        background-color: transparent;
+        border: 1px solid #0001FC;
+        cursor: pointer;
+        padding: .4rem 1.4rem;
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+        letter-spacing: 1px;
+        border-radius: 0;
+    }
+
+.contacto__form__button:hover{
+            color: #fff;
+            background-color: #FC0001;
+            border: 1px solid #FC0001;
+        }
+
+.contacto__form__input{
+        border-color: #0001FC;
+        border-radius: 0;
+        color: #000;
+    }
+
+.contacto__form__input:focus{
+            border-color: red;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+            color: #000;
+        }
+
+.contacto__form__input::-webkit-input-placeholder{
+            color: #000;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+
+.contacto__form__input:-ms-input-placeholder{
+            color: #000;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+
+.contacto__form__input::-ms-input-placeholder{
+            color: #000;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+
+.contacto__form__input::placeholder{
+            color: #000;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+
+.contacto__aside{
+        padding-top: 2.2rem;
+    }
+
+@media only screen and (min-width: 576px){
+
+.contacto__aside{
+            padding-top: 0
+    }
     }
 
 

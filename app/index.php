@@ -40,7 +40,7 @@
         <div class="container">
             <div class="site-header__logo">
                 <!--<div class="icon--clear-view-escapes site-header__logo__graphic">Clear View Escapes</div>-->
-                <img src="assets/images/pb_logo.png" alt="" class="site-header__image">
+                <a href="index.php"><img src="assets/images/pb_logo.png" alt="" class="site-header__image"></a>
             </div>
 
             <div class="site-header__menu-icon">

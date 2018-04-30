@@ -1,0 +1,44 @@
+.contacto{
+    &__form__button{
+        background-color: transparent;
+        border: 1px solid $mainBlue;
+        cursor: pointer;
+        padding: .4rem 1.4rem;
+        transition: all .2s ease-out;
+        letter-spacing: 1px;
+        border-radius: 0;
+        
+        &:hover{
+            color: #fff;
+            background-color: $mainRed;
+            border: 1px solid $mainRed;
+        }
+    }
+    
+    &__form__input{
+        border-color: $mainBlue;
+        border-radius: 0;
+        color: #000;
+        
+        &:focus{
+            border-color: red;
+            box-shadow: none;
+            color: #000;
+        }
+        
+        &::placeholder{
+            color: #000;
+            font-size: .8rem;
+            letter-spacing: 1px;
+        }
+    }
+    
+    &__aside{
+        padding-top: 2.2rem;
+    
+        
+        @mixin atSmall{
+            padding-top: 0;
+        }
+    }
+}

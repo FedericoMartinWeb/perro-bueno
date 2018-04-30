@@ -69,7 +69,7 @@
         <img srcset="assets/images/hero--smaller.jpg 640w" alt="main" class="large-hero__image">
     </picture> -->
         <div class="large-hero__img-wrapper large-hero__img-wrapper--internal">
-            <img src="assets/images/perro_15.jpg" alt="" class="large-hero__image large-hero__image--internal">
+            <img src="assets/images/perro_adiestramiento.jpg" alt="" class="large-hero__image large-hero__image--internal">
         </div>
         <div class="large-hero__text-content">
             <div class="container">

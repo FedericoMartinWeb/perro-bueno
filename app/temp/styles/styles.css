@@ -10797,43 +10797,23 @@ html.lb-disable-scrolling {
             }
     }
 
+.adiestramiento__disclaim{
+        font-size: 1.7rem;
+        font-style: italic;
+        font-weight: 300;
+    }
+
 .adiestramiento__item{
         border: 1px solid #0001FC;
         text-align: center;
         margin-bottom: 2rem;
-        height: 500px;
-    }
-
-@media only screen and (min-width: 768px){
-
-.adiestramiento__item{
-            height: 460px
-    }
+        color: #FC0001;
     }
 
 .adiestramiento__img--wrapper{
-        overflow: hidden;
-        height: 300px;
-    }
-
-@media only screen and (min-width: 768px){
-
-.adiestramiento__img--wrapper{
-            height: auto
-    }
-    }
-
-.adiestramiento__img{
-        width: 100%;
-        height: 330px;
-        position: relative;
-    }
-
-@media only screen and (min-width: 768px){
-
-.adiestramiento__img{
-            height: 250px
-    }
+        text-align: center;
+        -webkit-box-shadow: 0px 2px 4px 0px rgba(168,168,168,1);
+                box-shadow: 0px 2px 4px 0px rgba(168,168,168,1);
     }
 
 .adiestramiento__icon{
@@ -10841,11 +10821,24 @@ html.lb-disable-scrolling {
         color: #FC0001;
     }
 
+.adiestramiento__precio{
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #FC0001;
+        font-size: 5rem;
+    }
+
+.adiestramiento__precio--consultar{
+            font-size: 3.7rem;
+        }
+
 .adiestramiento__title{
         font-weight: 300;
         margin-bottom: 1rem;
-        text-align: left;
-        color: #FC0001;
+        text-align: center;
+        padding: 1rem;
+        color: #0001FC;
     }
 
 .adiestramiento__title--bigvete{

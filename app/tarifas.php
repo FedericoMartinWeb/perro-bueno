@@ -57,8 +57,8 @@
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="guarderia.php">Guarderia de día</a></li>
-                        <li><a href="adiestramiento.php" class="primary-nav__active">Adiestramiento</a></li>
-                        <li><a href="tarifas.php">Tarifas</a></li>
+                        <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="tarifas.php" class="primary-nav__active">Tarifas</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
@@ -79,7 +79,7 @@
         </div>
         <div class="large-hero__text-content">
             <div class="container">
-                <h1 class="large-hero__title">Adiestramiento</h1>
+                <h1 class="large-hero__title">Tarifas</h1>
             </div>
         </div>
     </div>
@@ -88,29 +88,86 @@
     <!-- Start Adiestramiento -->
     <section class="adiestramiento page-section" id="adiestramiento">
         <div class="container">
-            <p class="adiestramiento__disclaim">Consulta nuestro servicio de adiestramiento y modificación de conducta a domicilio. Uno de nuestros especialistas se pondrá en contacto contigo y te explicará cómo trabajamos y en qué te podríamos ayudar.</p>
+            <h2 class="title">Tarifas planas mensuales</h2>
+            <div class="row">
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Lunes a viernes</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio">€300</h3>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Lunes a jueves</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio">€260</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <h2 class="title">Eventuales día suelto</h2>
+            <div class="row">
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Recogida y entrega en el día siempre que el domicilio se encuentre dentro del radio de&nbsp;la&nbsp;ruta</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio">€25</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <h2 class="title">Estancias de verano/festivos</h2>
+            <div class="row">
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Tarifa diaria</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio">€15</h3>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Larga estancia mas de 20&nbsp;dias</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio--consultar">Consultar</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <h2 class="title">Traslados</h2>
+            <div class="row">
+                <div class="adiestramiento__item--content col-md-6 col-lg-4">
+                    <article class="adiestramiento__item">
+                        <div class="adiestramiento__img--wrapper">
+                            <h3 class="adiestramiento__title">Ida y vuelta siempre que este dentro del radio de&nbsp;la&nbsp;ruta</h3>
+                        </div>
+                        <div class="adiestramiento__copy-wrapper">
+                            <h3 class="adiestramiento__precio">€10</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>     
     </section>
     <!-- End Adiestramiento -->
-    
-     <!-- Start gallery -->
-    <section class="gallery page-section page-section--no-padding-top" id="gallery">
-        <div class="container">
-            <div class="row">
-               
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_4.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_4.jpg" alt=""></a>
-                </div>
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_8.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_8.jpg" alt=""></a>
-                </div>
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_7.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_7.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>      
-    </section>
-    <!-- End gallery -->
   
     <footer class="footer">
         <div class="container">

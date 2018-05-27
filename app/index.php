@@ -58,6 +58,7 @@
                         <li><a href="index.php" class="primary-nav__active">Home</a></li>
                         <li><a href="guarderia.php">Guarderia de día</a></li>
                         <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="tarifas.php">Tarifas</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
@@ -89,8 +90,8 @@
     <main class="services page-section" id="services">
         <div class="container">
             <h2 class="title">Servicios</h2>
-            <p>PerroBueno fue creado por amantes de los animales, para darles un servicio personalizado. En nuestras instalaciones no verás a tu perro encerrado, es un lugar especial para que disfruten mientras tu realizas tus obligaciones, trabajo, recados o te vas a las vacaciones deseadas y no puedes llevarle contigo.</p>
-            <p class="services__parrafo">La idea principal es contar con un lugar apropiado para poder tener a los perros como en casa, espacio suficiente e instalaciones preparadas para todo tipo de perros. Solo contamos con un grupo muy limitado de perros en el Centro de día, esto hace que sea 100×100 personalizado.</p>
+            <p>PerroBueno fue creado por amantes de los animales para darles un servicio personalizado. En nuestras instalaciones no verás a tu perro encerrado, es un lugar especial para que disfruten mientras tú realizas tus obligaciones o te vas a tus vacaciones deseadas y no puedes llevarle contigo. Contamos con un lugar apropiado para poder  tener a los perros como en casa, con  espacio suficiente e instalaciones preparadas para todo tipo de perros (piscina incluida en verano). </p>
+            <p class="services__parrafo">Sólo contamos con un grupo muy limitado de perros en nuestra Guardería de Día, esto hace que el trato con  cada uno de los ellos sea 100% personalizado. La Guardería de Día es una alternativa al paseador convencional, ya que los paseos son  más largos evitando las horas que tu mejor amigo se encuentra solo en casa, así  mejora  su estado físico por falta de ejercicio y calma la ansiedad  por aburrimiento. No dudes en llamarnos con cualquier duda o inquietud que tengas. Nuestra Guardería de Día es novedosa en  Madrid  y nuestros huéspedes están más que encantados!</p>
             <div class="row">
                 <div class="services__item--content col-md-6 col-lg-4">
                     <article class="services__item">

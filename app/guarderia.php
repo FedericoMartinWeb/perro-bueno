@@ -58,6 +58,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="guarderia.php" class="primary-nav__active">Guarderia de día</a></li>
                         <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="tarifas.php">Tarifas</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </ul>
                 </nav>
@@ -95,7 +96,7 @@
             <p>Tenemos tarifa plana de lunes a viernes, pero damos servicio según disponibilidad en días sueltos.
             Nos puedes consultar tus necesidades y nos intentamos acoplar a ti.
             La idea es que tu perro no pase el día solo, de esta manera se evitan destrozos en casa y la ansiedad por separación, y algo 
-            importante será un perro sociable con todos los&nbsp;perros.</p>
+            importante será un perro sociable con todos los&nbsp;perros. Consulta nuestra zona de servicio en Madrid centro y alrededores.</p>
             <p class="blue text-center font-italic font-weight-bold text-uppercase pt-1">No hacemos distinción de razas, <br class="hide-medium" />solo nos importa que tu perro sea&nbsp;feliz!</p>
         </div>      
     </section>
@@ -106,13 +107,13 @@
         <div class="container">
             <div class="row">
                
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_1.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_4.jpg" alt=""></a>
+                <div class="gallery__item col-md-6 col-lg-4">
+                    <a href="assets/images/perro_4.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_4.jpg" alt=""></a>
                 </div>
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
-                    <a href="assets/images/perro_2.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_6.jpg" alt=""></a>
+                <div class="gallery__item col-md-6 col-lg-4">
+                    <a href="assets/images/perro_6.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_6.jpg" alt=""></a>
                 </div>
-                <div class="gallery__item col-md-6 col-lg-4 gallery-reveal">
+                <div class="gallery__item col-md-6 col-lg-4">
                     <a href="assets/images/perro_3.jpg" data-lightbox="image-1" data-title="My caption"><img src="assets/images/perro_3.jpg" alt=""></a>
                 </div>
             </div>

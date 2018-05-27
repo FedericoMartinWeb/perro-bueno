@@ -58,6 +58,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="guarderia.php">Guarderia de día</a></li>
                         <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="tarifas.php">Tarifas</a></li>
                         <li><a href="contacto.php" class="primary-nav__active">Contacto</a></li>
                     </ul>
                 </nav>

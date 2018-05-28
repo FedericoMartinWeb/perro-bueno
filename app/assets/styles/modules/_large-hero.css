@@ -37,6 +37,10 @@
         min-width: 560px;
         
         @mixin atSmall{
+            height: 520px;
+        }
+        
+        @mixin atLarge{
             height: calc(100vh - 4px);
         }
         

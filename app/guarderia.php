@@ -79,7 +79,7 @@
         </div>
         <div class="large-hero__text-content">
             <div class="container">
-                <h1 class="large-hero__title">Guarderia de&nbsp;día</h1>
+                <h1 class="large-hero__title">Guarderia de&nbsp;día para&nbsp;tu&nbsp;mejor&nbsp;amigo</h1>
             </div>
         </div>
     </div>
@@ -88,15 +88,23 @@
     <!-- Start guarderia -->
     <section class="guarderia page-section page-section--no-padding-bottom">
         <div class="container">
-            <p>Nuestro servicio de Guardería de día es una alternativa al paseador convencional, 
-            recogemos cada mañana a tu perro en la puerta de tu casa y lo llevamos a pasar el dia a nuestra casa de campo, a una finca de encanto donde hará ejercicio y pasara el día rodeado de colegas.
-            Es una opción al paseador, ya que la tarifa de guardería de día equivale a un día completo de paseo, donde tu mejor amigo puede pasear sin correa, correr y pasarlo bien sin tener que estar pensando en los temores de la gran ciudad (coches – 
-            aglomeraciones y parques&nbsp;delimitados).</p>
-            <p>Tienes un galgo que no puede correr suelto o un perro denominado PPP al cual no puedes dejar jugar sin correa ni bozal??? <br><span class="red font-italic">Somos tu solución!!!</span></p>
-            <p>Tenemos tarifa plana de lunes a viernes, pero damos servicio según disponibilidad en días sueltos.
-            Nos puedes consultar tus necesidades y nos intentamos acoplar a ti.
-            La idea es que tu perro no pase el día solo, de esta manera se evitan destrozos en casa y la ansiedad por separación, y algo 
-            importante será un perro sociable con todos los&nbsp;perros. Consulta nuestra zona de servicio en Madrid centro y alrededores.</p>
+            <p>Las largas jornadas laborales nos hacen pasar mucho tiempo fuera, y no nos queda más remedio que dejar a los perros solos en casa durante períodos más largos de lo que nos gustaría.
+            Es por eso que en PERROBUENO hemos creado el servicio de guardería de dia para tu mejor amigo. 
+            Llevamos años dando soluciones para que tu mejor amigo no se quede solo en casa y no le falte de nada. 
+            La falta de ejercicio y socialización hacen que además de poder adquirir ansiedad por separación nuestro perro gane peso y ya no sea el mismo perro feliz de siempre. 
+            Como no está en nuestra mano cambiar los horarios de trabajo, ponemos a vuestro servicio un lugar donde vuestros perros pueden pasar el día jugando con otros perros en un espacio de naturaleza inigualable y siempre bajo la supervisión de nuestros cuidadores que hacen ejercicios con ellos para que estén entretenidos, también complementamos nuestro servicio dejando al alcance del dueño los servicios de Veterinario donde hacer las consultas necesarias, vacunas y todo lo que necesites para tu perro.
+            Si eventualmente necesitas darle un baño también lo llevamos a la peluquería en el horario de la Guarderia de dia. 
+            Cuando tú vuelvas a casa, encontrarás un perro feliz y relajado y ya sólo te tocará disfrutar de su compañía.
+            Perrobueno esta ubicado en el campo, donde tu perro deseara llegar cada dia, #sinjaulas y seguro donde estará suelto con otros de su especie en grupos seleccionados por tamaño, temperamento y edad.</p>
+            <p>Un miembro de nuestro equipo estará en todo momento con ellos para guiar los juegos, vigilar que todo vaya bien y que ningún perro sea excluido.
+            Nos encargamos de controlar el estado vacunal de todos los perros que acudan a nuestro centro para asegurarnos de que todos están sanos y seguros.
+            En perrobueno hacemos traslado puerta a puerta cada mañana con una ruta fija desde primera hora ya estamos en ruta canina para que pasen la mayor cantidad de tiempo haciendo ejercicio. 
+            Tenemos diferentes tipos de recogida. 
+            En el portal con el dueño.
+            En el portal con el portero o que nos facilite la entrada a casa.
+            O con llave. (este caso es mas practico para todos los que trabajan muchas horas).
+            En verano tenemos guardería canina con noches incluidas siempre dentro de nuestra idea de semi libertad para que tu mejor amigo haga de sus vacaciones unos días muy divertidos. 
+            Todos nuestros amigos perrunos se lo pasan bien, nuestra idea fue crear una alternativa al paseador /guardería convencional pudiendo ofrecer un servicio personal donde poder darles la libertad que necesitan para correr y gastar la energía que en Madrid centro es difícil.</p>
             <p class="blue text-center font-italic font-weight-bold text-uppercase pt-1">No hacemos distinción de razas, <br class="hide-medium" />solo nos importa que tu perro sea&nbsp;feliz!</p>
         </div>      
     </section>
@@ -137,6 +145,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="guarderia.php" class="primary-nav__active">Guarderia</a></li>
                         <li><a href="adiestramiento.php">Adiestramiento</a></li>
+                        <li><a href="tarifas.php">Tarifas</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </div>
                 </div>

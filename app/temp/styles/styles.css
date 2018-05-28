@@ -9576,6 +9576,13 @@ p{
 @media only screen and (min-width: 576px){
 
 .large-hero__image{
+            height: 520px
+    }
+    }
+
+@media only screen and (min-width: 992px){
+
+.large-hero__image{
             height: calc(100vh - 4px)
     }
     }
@@ -10840,6 +10847,14 @@ html.lb-disable-scrolling {
         padding: 1rem;
         color: #0001FC;
     }
+
+.adiestramiento__title--box{
+            text-align: left;
+            color: #FC0001;
+            font-size: 1rem;
+            padding: .4rem;
+            font-weight: 300;
+        }
 
 .adiestramiento__title--bigvete{
             color: #FC0001;

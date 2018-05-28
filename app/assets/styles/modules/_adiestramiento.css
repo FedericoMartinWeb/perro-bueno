@@ -42,6 +42,14 @@
         padding: 1rem;
         color: $mainBlue;
         
+        &--box{
+            text-align: left;
+            color: $mainRed;
+            font-size: 1rem;
+            padding: .4rem;
+            font-weight: 300;
+        }
+        
         &--bigvete{
             color: $mainRed;
             text-decoration: none !important;

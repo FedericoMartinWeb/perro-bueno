@@ -128,6 +128,7 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="guarderia.php">Guarderia</a></li>
                         <li><a href="adiestramiento.php"  class="primary-nav__active">Adiestramiento</a></li>
+                        <li><a href="tarifas.php">Tarifas</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </div>
                 </div>

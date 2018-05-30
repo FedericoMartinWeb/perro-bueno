@@ -45,6 +45,10 @@
             float: left;
             display: block;
             border-bottom: none;
+            padding: 13px 0 10px 0px;
+        }
+        
+        @mixin atLarge{
             padding: 13px 15px 10px 8px;
         }
         

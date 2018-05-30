@@ -37,6 +37,16 @@ p{
     }
 }
 
+.hide-large{
+    @mixin atLarge{
+        display: none;        
+    }
+}
+
 .pt-1{
     padding-top: .5rem !important;
+}
+
+.fz-2{
+    font-size: 1.2rem;
 }

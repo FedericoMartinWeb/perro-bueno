@@ -3,13 +3,17 @@
     &__item{
         color: #fff;
         background-color: $mainBlue;
-        padding: 1.5rem;
+        padding: 0.5rem;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         height: 216px;
+        
+        @mixin atSmall{
+            padding: 1.5rem !important;
+        }
         
         &__img{
             width: 130px;

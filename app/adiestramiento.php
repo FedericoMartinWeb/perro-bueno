@@ -79,7 +79,7 @@
         </div>
         <div class="large-hero__text-content">
             <div class="container">
-                <h1 class="large-hero__title">Adiestramiento</h1>
+                <h1 class="large-hero__title large-hero__title--adiestra">Adiestramiento</h1>
             </div>
         </div>
     </div>
@@ -88,7 +88,8 @@
     <!-- Start Adiestramiento -->
     <section class="adiestramiento page-section" id="adiestramiento">
         <div class="container">
-            <p class="adiestramiento__disclaim">Consulta nuestro servicio de adiestramiento y modificación de conducta a domicilio. Uno de nuestros especialistas se pondrá en contacto contigo y te explicará cómo trabajamos y en qué te podríamos ayudar.</p>
+            <p class="adiestramiento__disclaim red">Consulta nuestro servicio de adiestramiento y modificación de conducta a domicilio.</p>
+            <p class="adiestramiento__disclaim blue">Uno de nuestros especialistas se pondrá en contacto contigo y te explicará cómo trabajamos y en qué te podríamos ayudar.</p>
         </div>     
     </section>
     <!-- End Adiestramiento -->

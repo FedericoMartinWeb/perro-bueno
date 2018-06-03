@@ -71,6 +71,9 @@
 .icon-checkmark:before {
   content: "\6b";
 }
+.icon-eur:before {
+  content: "\6c";
+}
 
 .social{
     position: fixed;

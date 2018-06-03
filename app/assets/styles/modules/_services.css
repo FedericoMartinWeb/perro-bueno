@@ -7,6 +7,16 @@
         transition: all .3s ease-out;
         margin-bottom: 2rem;
         max-height: 219.17px;
+        cursor: pointer;
+        
+        &--link{
+            text-decoration: none !important;
+            color: #333;
+            
+            &:hover{
+                color: #333;
+            }
+        }
         
         @mixin atSmall{
             padding: 2.9rem 5rem;

@@ -23,6 +23,7 @@ a{
 p{
     font-size: 1rem;
 }
+
 .red{
     color: $mainRed;
 }

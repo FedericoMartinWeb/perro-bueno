@@ -2,6 +2,12 @@
     position: relative;
     border-bottom: 4px solid $mainRed;
     
+    &__fix{
+        @mixin atLarge{
+            padding: 0 6rem;
+        }
+    }
+    
     &__img-wrapper{
         position: relative;
         overflow-x: hidden;

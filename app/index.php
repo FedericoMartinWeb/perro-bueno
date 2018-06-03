@@ -79,8 +79,10 @@
         </div>
         <div class="large-hero__text-content">
             <div class="container">
-                <h1 class="large-hero__title">Bienvenido a<br>PERROBUENO Madrid</h1>
-                <p class="large-hero__description">Tu perro al cole!</p>
+                <div class="large-hero__fix">   
+                    <h1 class="large-hero__title">Bienvenido a PERROBUENO Madrid</h1>
+                    <p class="large-hero__description">Tu perro al cole!</p>
+                </div>
             </div>
         </div>
     </div>
@@ -95,37 +97,45 @@
             
             <div class="row">
                 <div class="services__item--content col-md-6 col-lg-4">
-                    <article class="services__item">
-                        <span class="icon-home services__icon"></span>
-                        <h3 class="services__title">Guarderia de día</h3>
-                    </article>
+                    <a href="guarderia.php" class="services__item--link">
+                        <article class="services__item">
+                            <span class="icon-home services__icon"></span>
+                            <h3 class="services__title">Guarderia de día</h3>
+                        </article>
+                    </a>
                 </div>
                 
                 <div class="services__item--content col-md-6 col-lg-4">
-                    <article class="services__item">
-                        <span class="icon-graduation-cap services__icon"></span>
-                        <h3 class="services__title">Adiestramiento profesional</h3>    
-                    </article>
+                    <a href="adiestramiento.php" class="services__item--link">
+                        <article class="services__item">
+                            <span class="icon-graduation-cap services__icon"></span>
+                            <h3 class="services__title">Adiestramiento profesional</h3>    
+                        </article>
+                    </a>
                 </div>
                 
                 <div class="services__item--content col-md-6 col-lg-4">
-                    <article class="services__item">
-                        <span class="icon-compass services__icon"></span>
-                        <h3 class="services__title">Baños y traslados</h3>
-                    </article>
+                    <a href="tarifas.php" class="services__item--link">
+                        <article class="services__item">
+                            <span class="icon-eur services__icon"></span>
+                            <h3 class="services__title">Tarifas</h3>
+                        </article>
+                    </a>
                 </div>
                 
                 <div class="services__item--content col-md-6 col-lg-4">
-                    <article class="services__item">
-                        <span class="icon-hospital-o services__icon"></span>
-                        <h3 class="services__title">Veterinario a domicilio <a href="http://www.bigvete.es/" class="services__title--bigvete" target="_blank">bigvete.es</a></h3>
-                    </article>
+                    <a href="http://www.bigvete.es/" class="services__item--link" target="_blank">
+                        <article class="services__item">
+                            <span class="icon-hospital-o services__icon"></span>
+                            <h3 class="services__title">Veterinario a domicilio <span class="red">bigvete.es</span> </h3>
+                        </article>
+                    </a>
                 </div>
                 
                 <div class="services__item--content col-md-6 col-lg-4">
                     <article class="services__item">
                         <span class="icon-sun-o services__icon"></span>
-                        <h3 class="services__title">Estancias diarias&nbsp;diurnas</h3>    
+                        <h3 class="services__title">Campamento de&nbsp;verano</h3>    
                     </article>
                 </div>
                 

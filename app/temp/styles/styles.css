@@ -9541,6 +9541,13 @@ p{
     border-bottom: 4px solid #FC0001;
 }
 
+@media only screen and (min-width: 992px){
+
+.large-hero__fix{
+            padding: 0 6rem
+    }
+    }
+
 .large-hero__img-wrapper{
         position: relative;
         overflow-x: hidden;
@@ -10196,6 +10203,10 @@ p{
   content: "\6b";
 }
 
+.icon-eur:before {
+  content: "\6c";
+}
+
 .social{
     position: fixed;
     width: 100vw;
@@ -10264,7 +10275,17 @@ p{
         transition: all .3s ease-out;
         margin-bottom: 2rem;
         max-height: 219.17px;
+        cursor: pointer;
     }
+
+.services__item--link{
+            text-decoration: none !important;
+            color: #333;
+        }
+
+.services__item--link:hover{
+                color: #333;
+            }
 
 @media only screen and (min-width: 576px){
 

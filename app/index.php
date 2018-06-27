@@ -154,7 +154,7 @@
     <section class="know-us page-section" id="services">
         <div class="know-us__filter">
             <div class="know-us__img-wrapper">
-                <img src="assets/images/perro_prueba.jpg" alt="">
+                <img src="assets/images/perro_video.png" alt="">
             </div>
         </div>
         <div class="container know-us__content-wrapper">
